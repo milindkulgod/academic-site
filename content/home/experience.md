@@ -20,11 +20,11 @@ date_format = "Jan 2006"
 [[experience]]
   title = "Intern"
   company = "Quess Corp Limited"
-  company_url = "www.quesscorp.com"
+  company_url = ""
   location = "Bangalore, Karnataka, India"
   date_start = "2018-06-21"
   date_end = "2018-08-21"
-  description = """Intern in the technological division of Quess Corp Limited. The project was to create an interactive chatbot for the company's website"""
+  description = """
   Responsibilities include:
   * Analysing the requirements of the company.
   * Modelling the structure of the chatbot using ReactJS and Firebase
@@ -38,6 +38,4 @@ date_format = "Jan 2006"
   location = "Bangalore, Karnataka, India"
   date_start = "2017-07-16"
   date_end = "2017-08-16"
-  description = """Learnt about the aircraft division and its functioning at Hindustan Aeronautics Limited"""
-
 +++
