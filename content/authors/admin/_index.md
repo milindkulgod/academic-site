@@ -76,7 +76,7 @@ contact = "+1 (469)-487-3183"
  [[social]]
    icon = "cv"
    icon_pack = "ai"
-   link = "cv.pdf"
+   link = "Personal CV.pdf"
 
 +++
 
