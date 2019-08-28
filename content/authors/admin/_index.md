@@ -80,4 +80,4 @@ contact = "+1 (469)-487-3183"
 
 +++
 
-Looking forward to dive deep into the realm of technology and make the world a better place to live in.
+A Graduate Student in Computer Science and Engineering, studying at The University of Texas at Arlington, pursuing his majors in Artificial Intelligence and Database Systems. Apart from this, a photographer and a musician as well.
