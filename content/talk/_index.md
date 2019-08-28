@@ -1,17 +1,15 @@
----
-title: Leadership Portfolios
++++
+title = "Recent & Upcoming Talks"
+date = 2017-01-01T00:00:00
 
-# View.
-#   1 = List
-#   2 = Compact
-#   3 = Card
-view: 1
+# List format.
+#   0 = Simple
+#   1 = Detailed
+#   2 = Stream
+list_format = 2
 
-# Optional header image (relative to `static/img/` folder).
-header:
-
-●	Appointed as the President of the Music Association at NMIT, Bangalore during the term 2017-2019.
-●	Appointed as Vice President of the Student Council at NMIT, Bangalore during the term 2017-2018.
-●	Appointed as President of the Student Council at NMIT, Bangalore during the term 2018-2019.
-
----
+# Optional featured image (relative to `static/img/` folder).
+[header]
+image = ""
+caption = ""
++++
