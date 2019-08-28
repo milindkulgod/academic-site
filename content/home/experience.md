@@ -18,27 +18,26 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
-  date_end = ""
-  description = """
+  title = "Intern"
+  company = "Quess Corp Limited"
+  company_url = "www.quesscorp.com"
+  location = "Bangalore, Karnataka, India"
+  date_start = "2018-06-21"
+  date_end = "2018-08-21"
+  description = """Intern in the technological division of Quess Corp Limited. The project was to create an interactive chatbot for the company's website"""
   Responsibilities include:
-  
-  * Analysing
-  * Modelling
-  * Deploying
+  * Analysing the requirements of the company.
+  * Modelling the structure of the chatbot using ReactJS and Firebase
+  * Deploying the chatbot on the local website for preliminary testing and usage.
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
-  company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  title = "Intern"
+  company = "Hindustan Aeronautics Limited"
+  company_url = "www.hal-india.co.in"
+  location = "Bangalore, Karnataka, India"
+  date_start = "2017-07-16"
+  date_end = "2017-08-16"
+  description = """Learnt about the aircraft division and its functioning at Hindustan Aeronautics Limited"""
 
 +++
