@@ -15,10 +15,10 @@ role: Graduate Student
 # Organizations/Affiliations
 organizations:
 - name: The University of Texas at Arlington
-  url: "www.uta.edu"
+  url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: I intend on diving deep into the world of technology, and with my knowledge, make the world an easier place to live in.
+bio: ABCD
 
 interests:
 - Technology
@@ -33,7 +33,10 @@ education:
   - course: B.E in Information Science and Engineering
     institution: Nitte Meenakshi Institute of Technology
     year: 2015
-
+# Social/Academic Networking 
+# F
+# F
+# F
 social:
 - icon: envelope
   icon_pack: fas
@@ -41,6 +44,9 @@ social:
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/MilindKulgod97
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
   link: https://github.com/milindkulgod
@@ -49,3 +55,16 @@ social:
 # - icon: cv
 #   icon_pack: ai
 #   link: files/cv.pdf
+
+
+# Enter email to display Gravatar (if Gravatar enabled in Config)
+email:""
+
+#Org
+# Set this
+user_groups:
+- Researchers
+- Visitors
+---
+
+Milind Kulgod BIO
