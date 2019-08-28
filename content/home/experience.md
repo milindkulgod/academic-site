@@ -26,8 +26,9 @@ date_format = "Jan 2006"
   date_end = "2018-08-21"
   description = """
   Responsibilities include:
+  
   * Analysing the requirements of the company.
-  * Modelling the structure of the chatbot using ReactJS and Firebase
+  * Modelling the structure of the chatbot using ReactJS and Firebase 
   * Deploying the chatbot on the local website for preliminary testing and usage.
   """
 
