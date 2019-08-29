@@ -33,7 +33,7 @@ contact = "+1 (469)-487-3183"
   year = 2019
 
 [[education.courses]]
-  course = "Bachelor of Engineering in Information Science and Technology"
+  course = "Bachelor of Engineering in Information Science and Engineering"
   institution = "Nitte Meenakshi Institute of Technology"
   year = 2015
 
