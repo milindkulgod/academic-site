@@ -18,17 +18,17 @@
   url = "#projects"
   weight = 30
 
-[[main]]
-  name = "Publications"
-  url = "#featured"
-  weight = 40
+#[[main]]
+ #name = "Publications"
+  #url = "#featured"
+ #weight = 40
 
 [[main]]
   name = "Contact"
   url = "#contact"
-  weight = 60
+  weight = 50
 
 [[main]]
     name = "CV"
     url = "Personal CV.pdf"
-    weight = 70
+    weight = 60
