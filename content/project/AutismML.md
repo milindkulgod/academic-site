@@ -1,5 +1,7 @@
 +++
-title = "Detection of Autism with Machine Learning"+++
+
+title = "Detection of Autism with Machine Learning"
++++
 
 For our Undergraduate project, we used Machine Learning to detect Autism in children.
 
@@ -8,13 +10,14 @@ Autism is a very sensitive disorder, and it can not be detected in one go. As it
 The objective of the project is to device a cost efficient method to make Autism screening available to everyone, and thus avail treatment at the right time.
 
 The project was developed in Python using the Jupyter Notebook.
-The dataset was initially extracted from https://archive.ics.uci.edu/ml/datasets/Autism+Screening+Adult by Fadi Fayez Thabtah, Department of Digital Technology, Auckland, New Zealand.
+The dataset was initially extracted from 
+[here] https://archive.ics.uci.edu/ml/datasets/Autism+Screening+Adult by Fadi Fayez Thabtah, Department of Digital Technology, Auckland, New Zealand.
 
-###Data Preproccesing
+### Data Preproccesing
 The initial dataset had a lot of missing values, and the values were substituted with the mean of the entire column. Later, real-time data was collected from Autistic Schools and hospitals on approval from the doctors, and ran the algorithms with the newly obtained data.
 
 The report and the project can be found on the GitHub Repository.
->**GitHub Repository:**(https://github.com/milindkulgod/Autism-Prediction)
+>**GitHub Repository:** (https://github.com/milindkulgod/Autism-Prediction)
 
 #### References:
 * (Halim Abbas, Ford Garberson, Eric Glover, and Dennis P Wall. Machine learning
@@ -25,7 +28,6 @@ Data), pages 3558{3561. IEEE, 2017.)
 * (Sushama Rani Dutta, Soumyajit Giri, Sujoy Datta, and Monideepa Roy. A machine
 learning-based method for autism diagnosis assistance in children. In 2017 Interna-
 tional Conference on Information Technology (ICIT), pages 36{41. IEEE, 2017)
-
 
 * (Wenbo Liu, Xhiding Yu, Bhiksha Raj, Li Yi, Xiaobing Zou, and Ming Li. E-
 cient autism spectrum disorder prediction with eye movement: A machine learning
