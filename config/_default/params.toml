@@ -138,14 +138,15 @@ sharing = true
 
 # Configuration of project pages.
 [projects]
+list_children = false
   # Views for associated content.
   #   1: List
   #   2: Compact
   #   3: Card
   #   4: Citation (publications only)
-  post_view = 2
-  publication_view = 2
-  talk_view = 2
+  post_format = 1
+  publication_format = 4
+  talk_format = 2
 
 # Comments.
 [comments]
