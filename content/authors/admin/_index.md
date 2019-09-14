@@ -13,7 +13,7 @@ role = "Graduate Student"
 organizations = [ { name = "The University of Texas at Arlington ", url = "" } ]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "Interested in the field of Data Science and Machine Learning, keen on learning about Artificial General Intelligence and Human Computer interaction."
+bio = "Interested in the field of Data Science and Machine Learning, keen on learning about Artificial Intelligence."
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email = "milind.kulgod@gmail.com"
