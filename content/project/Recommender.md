@@ -34,3 +34,4 @@ The recommender system will be built on the Kaggle dataset that has been posted 
 {{< gallery album="Screenshots" >}}
 
 **Proposal Download Link:**
+static/Prop.pdf
