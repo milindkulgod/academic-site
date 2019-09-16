@@ -31,3 +31,5 @@ image = "4.jpg"
 [[gallery_item]]
 album = "Screenshots"
 image = "5.jpg"
+
+{{< gallery album="Screenshots" >}}
