@@ -1,27 +1,28 @@
 +++
 
 title = "PharmEazy Recommender System"
+
+
+[[gallery_item]]
+album = "Screenshots"
+image = "1.PNG"
+
+[[gallery_item]]
+album = "Screenshots"
+image = "2.PNG"
+
+[[gallery_item]]
+album = "Screenshots"
+image = "3.PNG"
+
+[[gallery_item]]
+album = "Screenshots"
+image = "4.PNG"
+
+[[gallery_item]]
+album = "Screenshots"
+image = "5.PNG"
 +++
-
-[[gallery_item]]
-album = "Screenshots"
-image = "1.jpg"
-
-[[gallery_item]]
-album = "Screenshots"
-image = "2.jpg"
-
-[[gallery_item]]
-album = "Screenshots"
-image = "3.jpg"
-
-[[gallery_item]]
-album = "Screenshots"
-image = "4.jpg"
-
-[[gallery_item]]
-album = "Screenshots"
-image = "5.jpg"
 
 **Project Idea Proposal:**
 
