@@ -1,8 +1,6 @@
 +++
 
 title = "PharmEazy Recommender System"
-
-
 [[gallery_item]]
 album = "Screenshots"
 image = "1.PNG"
