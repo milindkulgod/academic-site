@@ -3,6 +3,7 @@
 title = "Detection of Autism with Machine Learning"
 +++
 
+
 For our Undergraduate project, we used Machine Learning to detect Autism in children.
 
 Autism is a very sensitive disorder, and it can not be detected in one go. As it is classified as a spectrum of disorders, there is no specific set of symptoms to define Autism. Screening of Autism is not widely available, and on availability, turns out to be an expensive process.
