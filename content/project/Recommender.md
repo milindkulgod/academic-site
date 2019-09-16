@@ -31,7 +31,9 @@ One can look for medications based on the reviews given by other people along wi
 
 The recommender system will be built on the Kaggle dataset that has been posted by Jessica Li. The dataset can be found here at: https://www.kaggle.com/jessicali9530/kuc-hackathon-winter-2018. The dataset has more than 50,000 entries with 7 attributes for the data.
 
+**Screenshot Sketches:"
+
 {{< gallery album="Screenshots" >}}
 
 **Proposal Download Link:**
-static/Prop.pdf
+"Prop.pdf"
