@@ -41,7 +41,9 @@ This product is aimed to make sure that people are selecting the right medicine 
 
 
 **Proposal Download Link:**
+
 https://drive.google.com/drive/folders/1fMr1PZldnCxlnj3D_69cOf7DTmqX2EUc
 
 **References:**
+
 https://www.kaggle.com/jessicali9530/kuc-hackathon-winter-2018
