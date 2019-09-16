@@ -144,7 +144,7 @@ list_children = false
   #   2: Compact
   #   3: Card
   #   4: Citation (publications only)
-  post_format = 1
+  post_view = 3
   publication_format = 4
   talk_format = 2
 
