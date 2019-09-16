@@ -31,9 +31,17 @@ One can look for medications based on the reviews given by other people along wi
 
 The recommender system will be built on the Kaggle dataset that has been posted by Jessica Li. The dataset can be found here at: https://www.kaggle.com/jessicali9530/kuc-hackathon-winter-2018. The dataset has more than 50,000 entries with 7 attributes for the data.
 
+**Why this idea?"**
+
+This product is aimed to make sure that people are selecting the right medicine to help them cure themselves and make sure they don’t experience any sort of side effects without ease. This web app is for the people of the world, for the people who do not have immediate access to medical help due to unforeseen circumstances. To assist every individual by helping them search for the appropriate medicine that they should be consuming. To make life easier in a smarter way.
+
 **Screenshot Sketches:"
 
 {{< gallery album="Screenshots" >}}
 
+
 **Proposal Download Link:**
 https://drive.google.com/drive/folders/1fMr1PZldnCxlnj3D_69cOf7DTmqX2EUc
+
+**References:**
+https://www.kaggle.com/jessicali9530/kuc-hackathon-winter-2018
