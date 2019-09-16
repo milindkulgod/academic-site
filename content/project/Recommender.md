@@ -1,8 +1,8 @@
 +++
 
-title = "Information based Recommender System"
+title = "PharmEazy Recommender System"
 +++
 
 ### Summary:
 
-To build a recommender system
+
