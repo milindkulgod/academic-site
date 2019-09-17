@@ -25,7 +25,7 @@ image = "5.PNG"
 
 **Project Idea Proposal:**
 
-This project was taken into consideration, to make sure that self help becomes the best help when it comes to health care. Keeping ourselves healthy is something that we should never overlook. If neglected, it can lead to unwanted complications and suffering. So we need to make sure that were taking the right remedy, the right medicine to cure us from our ailments. For this, the **"PharmEazy"** Recommender System was brought into life.
+This project was taken into consideration, to make sure that self help becomes the best help when it comes to health care. Keeping ourselves healthy is something that we should never overlook. If neglected, it can lead to unwanted complications and suffering. So we need to make sure that we're taking the right remedy, the right medicine to cure us from our ailments. For this, the **PharmEazy** Recommender System was brought into life.
 
 One can look for medications based on the reviews given by other people along with the ratings. One can also look up the medications that one will be needing based on the symptoms that one is undergoing. The app will recommend all similar medications for the particular symptom or ailment.
 
@@ -33,7 +33,7 @@ The recommender system will be built on the Kaggle dataset that has been posted 
 
 **Why this idea?**
 
-This product is aimed to make sure that people are selecting the right medicine to help them cure themselves and make sure they don’t experience any sort of side effects without ease. This web app is for the people of the world, for the people who do not have immediate access to medical help due to unforeseen circumstances. To assist every individual by helping them search for the appropriate medicine that they should be consuming. To make life easier in a smarter way.
+This product is aimed to make sure that people are selecting the right medicine to help them cure themselves and make sure they don’t experience any sort of side effects with ease. This web app is for the people of the world, for the people who do not have immediate access to medical help due to unforeseen circumstances. To assist every individual by helping them search for the appropriate medicine that they should be consuming. To make life easier in a smarter way.
 
 **Screenshot Sketches:**
 
