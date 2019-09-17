@@ -33,7 +33,7 @@ The recommender system will be built on the Kaggle dataset that has been posted 
 
 **Why this idea?**
 
-The internet has taken humanity by storm and has changed the way people live life completely. The smartphone is a catalyst to this revolution. Everyone can afford a smartphone and stay connected to the internet constantly at cost effective prices in India. This can pave the path to know what medications one is supposed to use, accurately and in a safe manner. **PharmEasy** recommendation system is for the people of the world, for the people who do not have immediate access to medical help due to unforeseen circumstances, to keep themselves healthy, fit and live easier in a smarter way. Data mining with machine learning makes this conveniently possible.
+The internet has taken humanity by storm and has changed the way people live life completely. The smartphone is a catalyst to this revolution. Everyone can afford a smartphone and stay connected to the internet constantly at cost effective prices in India. This can pave the path to know what medications one is supposed to use, accurately and in a safe manner. **PharmEazy** recommendation system is for the people of the world, for the people who do not have immediate access to medical help due to unforeseen circumstances, to keep themselves healthy, fit and live easier in a smarter way. Data mining with machine learning makes this conveniently possible.
 </p>
 **Screenshot Sketches:**
 
