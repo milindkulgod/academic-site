@@ -33,7 +33,7 @@ The recommender system will be built on the Kaggle dataset that has been posted 
 
 **Why this idea?**
 
-This product is aimed to make sure that people are selecting the right medicine to help them cure themselves and make sure they don’t experience any sort of side effects with ease. This web app is for the people of the world, for the people who do not have immediate access to medical help due to unforeseen circumstances. To assist every individual by helping them search for the appropriate medicine that they should be consuming. To make life easier in a smarter way.
+The internet has taken humanity by storm and has changed the way people live life completely. The smartphone is a catalyst to this revolution. Everyone can afford a smartphone and stay connected to the internet constantly at cost effective prices in India. This can pave the path to know what medications one is supposed to use, accurately and in a safe manner. **PharmEasy** recommendation system is for the people of the world, for the people who do not have immediate access to medical help due to unforeseen circumstances, to keep themselves healthy, fit and live easier in a smarter way. Data mining with machine learning makes this conveniently possible.
 
 **Screenshot Sketches:**
 
