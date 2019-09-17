@@ -42,7 +42,7 @@ The internet has taken humanity by storm and has changed the way people live lif
 
 **Proposal Download Link:**
 
-https://drive.google.com/open?id=1BN-JiX0c0Ykd6VSDlMgOG8hphW9DqmEW
+https://drive.google.com/open?id=1uL_buaK8sCZYf2zhCDlY2_wsU8sbeeLr
 
 **References:**
 
