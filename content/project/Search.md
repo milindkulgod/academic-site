@@ -1,4 +1,7 @@
-# PharmEazy
++++
+
+title =  "PharmEazy Search"
++++
 
 ## A Text Search Module using Python
 
