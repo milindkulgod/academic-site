@@ -82,15 +82,20 @@ For each review, i.e document, we have to create a posting list, and this is pos
 
 We take an input from the user through a web application and process the query by calculating the word weight. On doing so, we retrieve the top k results that are required. The cosine similarity is calculated by using.
 
+
 $$ {sim(q,r)} = \\vec{q} \\cdot \\vec{d} = \\sum_{t\ \\text{in both q and r}} w\_{t,q} \\times w\_{t,r}.$$
+
 
 Here, "q" is the query, and "r" is the review, thus, calculating the similarity. 
 
  If a review is not there in the first k elements, we will utilize weight in the kth element as the upper-bound on weight in the vector. thus finding the upper-bound score.
 
+
 $$ \\overline{sim(q,r)} = \\sum_{t\\in T_1} w\_{t,q} \\times w\_{t,r}.$$
 
+
 $$  + \sum_{t\\in T_2} w\_{t,q} \\times \\overline{w\_{t,r}}.$$
+
 
 In the equation stated above, the first half is where the top k elements contain the review, and the second half are the elements that do not contain the review
 
@@ -118,12 +123,12 @@ The sentence will be broken down into a vector form ['suffering','depression']
 2. For a big dataset, with more than 100k entries, acquiring the posting lists is a big task.
 
 <h2>Improvements:</h2>
-1. Elimination of stop words and lemmatizing existing words.
-2. Passing the functions through a class, to make data retrieval from the dataset quicker, making search results faster.
-3. Extraction of unique words while creating the word bank, thus reducing redundancy.
+1. Elimination of stop words and lemmatizing existing words.<br>
+2. Passing the functions through a class, to make data retrieval from the dataset quicker, making search results faster.<br>
+3. Extraction of unique words while creating the word bank, thus reducing redundancy.<br>
 
 <h2>Referneces:</h2>
-* http://nlp.stanford.edu/IR-book/pdf/02voc.pdf
-* http://nlp.stanford.edu/IR-book/pdf/06vect.pdf
-* https://colab.research.google.com/drive/1n1hUx-mO4EqhKyFmN--9pK5MhKR68MpB#scrollTo=8ILVjili5Xmu
-* https://www.freecodecamp.org/news/how-to-process-textual-data-using-tf-idf-in-python-cd2bbc0a94a3/
+* http://nlp.stanford.edu/IR-book/pdf/02voc.pdf<br>
+* http://nlp.stanford.edu/IR-book/pdf/06vect.pdf<br>
+* https://colab.research.google.com/drive/1n1hUx-mO4EqhKyFmN--9pK5MhKR68MpB#scrollTo=8ILVjili5Xmu<br>
+* https://www.freecodecamp.org/news/how-to-process-textual-data-using-tf-idf-in-python-cd2bbc0a94a3/<br>
