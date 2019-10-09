@@ -108,28 +108,42 @@ Consider the query as: "I am suffering from depression"
 The sentence will be broken down into a vector form ['suffering','depression']
 
 1. The query will have the stopwords eliminated.
+
 2. The query will have words Lemmatized with the WordNetLemmatizer
+
 3. The query is converted into a vector where the words are tokenized.
+
 4. The term frequency of the query is calculated.
+
 5. The inverse document frequency of the query is calculated.
+
 6. The TF-IDF weight is determined.
+
 7. As k = 40, the top 40 lists are obtained.
+
 8. If the word exsists in the review:
-       score += TF-IDF(review) * TF-IDF(query) 
+      score += TF-IDF(review) * TF-IDF(query) 
+       
 9. If the word does not exist in the review:
-10.    score += (TF-IDF)(40th Review) * TF-IDF(query)
+      score += (TF-IDF)(40th Review) * TF-IDF(query)
 
 <h2> Challenges faced:</h2>
 1. Initially the dataset was really big, thus it was taking time to read the entire dataset and then perform the calculation. The time taken was coming around 6-7 seconds, which is a terrible figure for a search module. Hence, the decision was made to initialize the reading of the dataset file at the beginning of the search functioning, thus making it easier to fetch the data rather than reading it continuously for every search iteration.<br>
+
 2. For a big dataset, with more than 100k entries, acquiring the posting lists is a big task.<br>
 
 <h2>Improvements:</h2>
 1. Elimination of stop words and lemmatizing existing words.<br>
+
 2. Passing the functions through a class, to make data retrieval from the dataset quicker, making search results faster.<br>
+
 3. Extraction of unique words while creating the word bank, thus reducing redundancy.<br>
 
 <h2>Referneces:</h2>
 * http://nlp.stanford.edu/IR-book/pdf/02voc.pdf<br>
+
 * http://nlp.stanford.edu/IR-book/pdf/06vect.pdf<br>
+
 * https://colab.research.google.com/drive/1n1hUx-mO4EqhKyFmN--9pK5MhKR68MpB#scrollTo=8ILVjili5Xmu<br>
+
 * https://www.freecodecamp.org/news/how-to-process-textual-data-using-tf-idf-in-python-cd2bbc0a94a3/<br>
