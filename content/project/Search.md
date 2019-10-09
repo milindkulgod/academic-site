@@ -3,7 +3,7 @@
 title =  "PharmEazy Search"
 +++
 
-<h1>**A Text Search Module using Python**</h1>
+<h1>A Text Search Module using Python</h1>
 
 Search engines play a major role in our day to day activities. Instant information, and we all turn to Google or Yahoo. Search engines have become an essential part of our lives. Here, a simple search engine has been developed for a drug dataset.
 
