@@ -80,7 +80,7 @@ For each review, i.e document, we have to create a posting list, and this is pos
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 
-We take an input from the user through a web application and process the query by calculating the word weight. On doing so, we retrieve the top k results that are required. The cosine similarity is calculated.
+We take an input from the user through a web application and process the query by calculating the word weight. On doing so, we retrieve the top k results that are required. The cosine similarity is calculated by using.
 
 $$ {sim(q,r)} = \\vec{q} \\cdot \\vec{d} = \\sum_{t\ \\text{in both q and r}} w\_{t,q} \\times w\_{t,r}.$$
 
@@ -91,3 +91,39 @@ Here, "q" is the query, and "r" is the review, thus, calculating the similarity.
 $$ \\overline{sim(q,r)} = \\sum_{t\\in T_1} w\_{t,q} \\times w\_{t,r}.$$
 
 $$  + \sum_{t\\in T_2} w\_{t,q} \\times \\overline{w\_{t,r}}.$$
+
+In the equation stated above, the first half is where the top k elements contain the review, and the second half are the elements that do not contain the review
+
+<h2> Algorithm Working </h2>
+
+Let us consider an example where we consider k = 40.
+Consider the query as: "I am suffering from depression"
+
+The sentence will be broken down into a vector form ['suffering','depression']
+
+1. The query will have the stopwords eliminated.
+2. The query will have words Lemmatized with the WordNetLemmatizer
+3. The query is converted into a vector where the words are tokenized.
+4. The term frequency of the query is calculated.
+5. The inverse document frequency of the query is calculated.
+6. The TF-IDF weight is determined.
+7. As k = 40, the top 40 lists are obtained.
+8. If the word exsists in the review:
+       score += TF-IDF(review) * TF-IDF(query) 
+9. If the word does not exist in the review:
+10.    score += (TF-IDF)(40th Review) * TF-IDF(query)
+
+<h2> Challenges faced:</h2>
+1. Initially the dataset was really big, thus it was taking time to read the entire dataset and then perform the calculation. The time taken was coming around 6-7 seconds, which is a terrible figure for a search module. Hence, the decision was made to initialize the reading of the dataset file at the beginning of the search functioning, thus making it easier to fetch the data rather than reading it continuously for every search iteration.
+2. For a big dataset, with more than 100k entries, acquiring the posting lists is a big task.
+
+<h2>Improvements:</h2>
+1. Elimination of stop words and lemmatizing existing words.
+2. Passing the functions through a class, to make data retrieval from the dataset quicker, making search results faster.
+3. Extraction of unique words while creating the word bank, thus reducing redundancy.
+
+<h2>Referneces:</h2>
+* http://nlp.stanford.edu/IR-book/pdf/02voc.pdf
+* http://nlp.stanford.edu/IR-book/pdf/06vect.pdf
+* https://colab.research.google.com/drive/1n1hUx-mO4EqhKyFmN--9pK5MhKR68MpB#scrollTo=8ILVjili5Xmu
+* https://www.freecodecamp.org/news/how-to-process-textual-data-using-tf-idf-in-python-cd2bbc0a94a3/
