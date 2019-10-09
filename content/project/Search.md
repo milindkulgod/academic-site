@@ -43,9 +43,36 @@ In order to make sure the search engine covers all the words that are present in
 
 For each review, i.e document, we have to create a posting list, and this is possible by calculating the TF-IDF of the document.
 (Term Frequency - Inverse Document Frequency).
-
+  **Prototype:**
+  <pre>
+  { word1 : [ docfreq, { docid1:[pos1, pos2, .....], docid2:[pos1, pos2, ....], ....... }, 
+            **{ doc1:w1, doc2:w2, .... }** ]
+   .
+   . 
+   .
+  }
+  </pre>
 <br>
 
+<h3> Calculating the TF-IDF weights for each word in the document </h3>
+<body>
+
+  1. TF(Term Frequency) of a word in a document:
+  <pre>
+  TF = frequency of "word" in "document" / total number of words in "document"
+  </pre>
+  
+  2. IDF:
+  <pre>
+  IDF = total documents in dataset / number of "document"s with "word"
+  </pre>
+  
+  3. TF-IDF:
+  <pre>
+  TF-IDF = (1+ log(TF)) / (IDF)
+  </pre>
+  
+</body>
 **Query Analysis and Processing:**
 
 
