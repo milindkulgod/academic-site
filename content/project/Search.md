@@ -82,7 +82,6 @@ For each review, i.e document, we have to create a posting list, and this is pos
 
 We take an input from the user through a web application and process the query by calculating the word weight. On doing so, we retrieve the top k results that are required. The cosine similarity is calculated.
 
-Cosine Similarity:
 $$ {sim(q,r)} = \\vec{q} \\cdot \\vec{d} = \\sum_{t\ \\text{in both q and r}} w\_{t,q} \\times w\_{t,r}.$$
 
 Here, "q" is the query, and "r" is the review, thus, calculating the similarity. 
