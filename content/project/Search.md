@@ -77,7 +77,8 @@ For each review, i.e document, we have to create a posting list, and this is pos
 <br>
 
 <h2>Query Analysis and Processing:</h2>
-
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 
 We take an input from the user through a web application and process the query by calculating the word weight. On doing so, we retrieve the top k results that are required. The cosine similarity is calculated.
 
