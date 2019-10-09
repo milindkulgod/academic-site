@@ -19,7 +19,7 @@ For the application, Flask was used.
 
 
 
-<h2>**Data Preprocessing:**</h2>
+**Data Preprocessing:**
 
 
 In order to create a text search module, first we need to have the appropriate dataset that we intend to work on.
@@ -34,7 +34,7 @@ In order to make the search more generalized, all characters have been converted
 Next, we use the nltk library, which is probably one of the most useful libraries for natural language processing in Python. We import the stopwords function from the corpus of the module. We can utilize this to eliminate the stopwords that are present in the data. On completing this, we use the lemmatizer funtion in order to identify the root of the words, broadening the spectrum for the search. 
 
 
-<h2>**Word Bank Creation:</h2>
+**Word Bank Creation:**
 
 
 In order to make sure the search engine covers all the words that are present in the dataset, we have to create a word bank, which contains all the unique words that are present. The data structure that can be used for this is a python dictionary. This makes use of hash indexing, which is quick.
@@ -42,7 +42,7 @@ In order to make sure the search engine covers all the words that are present in
 For each review, i.e document, we have to create a posting list, and this is possible by calculating the TF-IDF of the document.
 (Term Frequency - Inverse Document Frequency).
 
-<h2>**Query Analysis and Processing:**</h2>
+**Query Analysis and Processing:**
 
 
 We take an input from the user through a web application and process the query by calculating the word weight. On doing so, we retrieve the top k results that are required. The cosine similarity is calculated.
