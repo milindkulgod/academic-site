@@ -37,10 +37,6 @@
   url = "#contact"
   weight = 50
   
- [[main]]
-  name = "Posts"
-  url = "#posts"
-  weight = 60
 [[main]]
     name = "CV"
     url = "Personal CV.pdf"
