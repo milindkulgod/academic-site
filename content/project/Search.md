@@ -17,7 +17,7 @@ Any other text editor will do just fine as long as they support the Python libra
 
 For the application, Flask was used.
 
-
+<br>
 
 **Data Preprocessing:**
 
@@ -34,6 +34,8 @@ In order to make the search more generalized, all characters have been converted
 Next, we use the nltk library, which is probably one of the most useful libraries for natural language processing in Python. We import the stopwords function from the corpus of the module. We can utilize this to eliminate the stopwords that are present in the data. On completing this, we use the lemmatizer funtion in order to identify the root of the words, broadening the spectrum for the search. 
 
 
+<br>
+
 **Word Bank Creation:**
 
 
@@ -41,6 +43,8 @@ In order to make sure the search engine covers all the words that are present in
 
 For each review, i.e document, we have to create a posting list, and this is possible by calculating the TF-IDF of the document.
 (Term Frequency - Inverse Document Frequency).
+
+<br>
 
 **Query Analysis and Processing:**
 
