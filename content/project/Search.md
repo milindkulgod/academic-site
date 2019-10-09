@@ -36,7 +36,7 @@ Next, we use the nltk library, which is probably one of the most useful librarie
 
 <br>
 
-**Word Bank Creation:**
+<h2>Word Bank Creation:</h2>
 
 
 In order to make sure the search engine covers all the words that are present in the dataset, we have to create a word bank, which contains all the unique words that are present. The data structure that can be used for this is a python dictionary. This makes use of hash indexing, which is quick.
@@ -73,7 +73,7 @@ For each review, i.e document, we have to create a posting list, and this is pos
   </pre>
   
 </body>
-**Query Analysis and Processing:**
+<h2>Query Analysis and Processing:</h2>
 
 
 We take an input from the user through a web application and process the query by calculating the word weight. On doing so, we retrieve the top k results that are required. The cosine similarity is calculated.
