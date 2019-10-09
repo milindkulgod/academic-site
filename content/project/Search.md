@@ -19,7 +19,7 @@ For the application, Flask was used.
 
 <br>
 
-**Data Preprocessing:**
+<h2>Data Preprocessing:</h2>
 
 
 In order to create a text search module, first we need to have the appropriate dataset that we intend to work on.
@@ -45,7 +45,7 @@ For each review, i.e document, we have to create a posting list, and this is pos
 (Term Frequency - Inverse Document Frequency).
   **Prototype:**
   <pre>
-  { word1 : [ docfreq, { docid1:[pos1, pos2, .....], docid2:[pos1, pos2, ....], ....... }, 
+  { word1 : [ df, { id1:[p1, p2, .....], id2:[p1, p2, ....], ....... }, 
             **{ doc1:w1, doc2:w2, .... }** ]
    .
    . 
@@ -57,7 +57,7 @@ For each review, i.e document, we have to create a posting list, and this is pos
 <h3> Calculating the TF-IDF weights for each word in the document </h3>
 <body>
 
-  1. TF(Term Frequency) of a word in a document:
+  1. TF(Term Frequency) of a "word" in a "document":
   <pre>
   TF = frequency of "word" in "document" / total number of words in "document"
   </pre>
