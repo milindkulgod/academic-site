@@ -3,7 +3,7 @@
 title =  "PharmEazy Search"
 +++
 
-## A Text Search Module using Python
+**A Text Search Module using Python**
 
 The dataset used for this has been taken from [Kaggle](https://www.kaggle.com/jessicali9530/kuc-hackathon-winter-2018/home).
 This dataset consists of patient reviews for numerous drugs that have been prescribed for the symptoms that they have experienced, and how effective they have been.
