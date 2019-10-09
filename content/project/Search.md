@@ -73,9 +73,21 @@ For each review, i.e document, we have to create a posting list, and this is pos
   </pre>
   
 </body>
+
+<br>
+
 <h2>Query Analysis and Processing:</h2>
 
 
 We take an input from the user through a web application and process the query by calculating the word weight. On doing so, we retrieve the top k results that are required. The cosine similarity is calculated.
 
+Cosine Similarity:
+$$ {sim(q,r)} = \\vec{q} \\cdot \\vec{d} = \\sum_{t\ \\text{in both q and r}} w\_{t,q} \\times w\_{t,r}.$$
+
+Here, "q" is the query, and "r" is the review, thus, calculating the similarity. 
+
  If a review is not there in the first k elements, we will utilize weight in the kth element as the upper-bound on weight in the vector. thus finding the upper-bound score.
+
+$$ \\overline{sim(q,r)} = \\sum_{t\\in T_1} w\_{t,q} \\times w\_{t,r}.$$
+
+$$  + \sum_{t\\in T_2} w\_{t,q} \\times \\overline{w\_{t,r}}.$$
