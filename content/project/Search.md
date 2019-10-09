@@ -77,6 +77,7 @@ For each review, i.e document, we have to create a posting list, and this is pos
 <br>
 
 <h2>Query Analysis and Processing:</h2>
+
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 
@@ -119,8 +120,8 @@ The sentence will be broken down into a vector form ['suffering','depression']
 10.    score += (TF-IDF)(40th Review) * TF-IDF(query)
 
 <h2> Challenges faced:</h2>
-1. Initially the dataset was really big, thus it was taking time to read the entire dataset and then perform the calculation. The time taken was coming around 6-7 seconds, which is a terrible figure for a search module. Hence, the decision was made to initialize the reading of the dataset file at the beginning of the search functioning, thus making it easier to fetch the data rather than reading it continuously for every search iteration.
-2. For a big dataset, with more than 100k entries, acquiring the posting lists is a big task.
+1. Initially the dataset was really big, thus it was taking time to read the entire dataset and then perform the calculation. The time taken was coming around 6-7 seconds, which is a terrible figure for a search module. Hence, the decision was made to initialize the reading of the dataset file at the beginning of the search functioning, thus making it easier to fetch the data rather than reading it continuously for every search iteration.<br>
+2. For a big dataset, with more than 100k entries, acquiring the posting lists is a big task.<br>
 
 <h2>Improvements:</h2>
 1. Elimination of stop words and lemmatizing existing words.<br>
