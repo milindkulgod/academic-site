@@ -126,10 +126,10 @@ The sentence will be broken down into a vector form ['suffering','depression']
 
 7. As k = 40, the top 40 lists are obtained.
 
-8. If the word exsists in the review:
+8. If the document exists in all posting lists of the review:
       score += TF-IDF(review) * TF-IDF(query) 
        
-9. If the word does not exist in the review:
+9. If the word document does not exist in the posting lists of the review:
       score += (TF-IDF)(40th Review) * TF-IDF(query)
 
 **<h2> Challenges faced:</h2>**
@@ -145,6 +145,12 @@ The sentence will be broken down into a vector form ['suffering','depression']
 2. Passing the functions through a class, to make data retrieval from the dataset quicker, making search results faster.
 
 3. Extraction of unique words while creating the word bank, thus reducing redundancy.
+
+**<h2>Graph:</h2>**
+
+{{< gallery album="Screenshots" >}}
+
+A graph has been plotted between the execution times of calling functions with the help of a class, and calling functions as it is. Without the use of the functions, the process, right from reading the data from the csv file of the database, to display the output on the web app was taking more than 3-4 seconds. Those figures are really not feasible for a search module. With the use of the class, the dataset is initialized at the beginning of the execution, thus making the retrieval of output much faster, optimizing it all the way to receiving results in 0.05 seconds.
 
 **<h2>References:</h2>**
 
