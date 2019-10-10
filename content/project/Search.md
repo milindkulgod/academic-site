@@ -21,6 +21,8 @@ Any other text editor will do just fine as long as they support the Python libra
 
 For the application, Flask was used.
 
+To host the program on the server, ngrok.exe was used to host the web app.
+
 <br>
 
 **<h2>Data Preprocessing:</h2>**
