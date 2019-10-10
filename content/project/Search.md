@@ -154,6 +154,9 @@ The sentence will be broken down into a vector form ['suffering','depression']
 
 A graph has been plotted between the execution times of calling functions with the help of a class, and calling functions as it is. Without the use of the functions, the process, right from reading the data from the csv file of the database, to display the output on the web app was taking more than 3-4 seconds. Those figures are really not feasible for a search module. With the use of the class, the dataset is initialized at the beginning of the execution, thus making the retrieval of output much faster, optimizing it all the way to receiving results in 0.05 seconds.
 
+
+**Link for GitHub repository: https://github.com/milindkulgod/PharmEazy**
+
 **<h2>References:</h2>**
 
 * http://nlp.stanford.edu/IR-book/pdf/02voc.pdf
