@@ -44,7 +44,7 @@ In order to make sure the search engine covers all the words that are present in
 For each review, i.e document, we have to create a posting list, and this is possible by calculating the TF-IDF of the document.
 (Term Frequency - Inverse Document Frequency).
 
-  **Prototype:**
+  
   <pre>
   { word1 : [ df, { id1:[p1, p2, .....], id2:[p1, p2, ....], ....... }, 
             **{ doc1:w1, doc2:w2, .... }** ]
