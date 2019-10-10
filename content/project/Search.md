@@ -140,7 +140,7 @@ The sentence will be broken down into a vector form ['suffering','depression']
 
 3. Extraction of unique words while creating the word bank, thus reducing redundancy.<br>
 
-**<h2>Referneces:</h2>**
+**<h2>References:</h2>**
 * http://nlp.stanford.edu/IR-book/pdf/02voc.pdf<br>
 
 * http://nlp.stanford.edu/IR-book/pdf/06vect.pdf<br>
