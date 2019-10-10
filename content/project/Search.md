@@ -1,6 +1,10 @@
 +++
 
 title =  "PharmEazy Search"
+
+[[gallery_item]]
+album = "Screenshots"
+image = "Execution speeds.jpg"
 +++
 
 <h1>A Text Search Module using Python</h1>
