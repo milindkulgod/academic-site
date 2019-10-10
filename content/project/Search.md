@@ -19,7 +19,7 @@ For the application, Flask was used.
 
 <br>
 
-<h2>Data Preprocessing:</h2>
+**<h2>Data Preprocessing:</h2>**
 
 
 In order to create a text search module, first we need to have the appropriate dataset that we intend to work on.
@@ -36,13 +36,14 @@ Next, we use the nltk library, which is probably one of the most useful librarie
 
 <br>
 
-<h2>Word Bank Creation:</h2>
+**<h2>Word Bank Creation:</h2>**
 
 
 In order to make sure the search engine covers all the words that are present in the dataset, we have to create a word bank, which contains all the unique words that are present. The data structure that can be used for this is a python dictionary. This makes use of hash indexing, which is quick.
 
 For each review, i.e document, we have to create a posting list, and this is possible by calculating the TF-IDF of the document.
 (Term Frequency - Inverse Document Frequency).
+
   **Prototype:**
   <pre>
   { word1 : [ df, { id1:[p1, p2, .....], id2:[p1, p2, ....], ....... }, 
@@ -76,7 +77,7 @@ For each review, i.e document, we have to create a posting list, and this is pos
 
 <br>
 
-<h2>Query Analysis and Processing:</h2>
+**<h2>Query Analysis and Processing:</h2>**
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
@@ -100,7 +101,7 @@ $$  + \sum_{t\\in T_2} w\_{t,q} \\times \\overline{w\_{t,r}}.$$
 
 In the equation stated above, the first half is where the top k elements contain the review, and the second half are the elements that do not contain the review
 
-<h2> Algorithm Working </h2>
+**<h2> Algorithm Working </h2>**
 
 Let us consider an example where we consider k = 40.
 Consider the query as: "I am suffering from depression"
@@ -127,19 +128,19 @@ The sentence will be broken down into a vector form ['suffering','depression']
 9. If the word does not exist in the review:
       score += (TF-IDF)(40th Review) * TF-IDF(query)
 
-<h2> Challenges faced:</h2>
+**<h2> Challenges faced:</h2>**
 1. Initially the dataset was really big, thus it was taking time to read the entire dataset and then perform the calculation. The time taken was coming around 6-7 seconds, which is a terrible figure for a search module. Hence, the decision was made to initialize the reading of the dataset file at the beginning of the search functioning, thus making it easier to fetch the data rather than reading it continuously for every search iteration.<br>
 
 2. For a big dataset, with more than 100k entries, acquiring the posting lists is a big task.<br>
 
-<h2>Improvements:</h2>
+**<h2>Improvements:</h2>**
 1. Elimination of stop words and lemmatizing existing words.<br>
 
 2. Passing the functions through a class, to make data retrieval from the dataset quicker, making search results faster.<br>
 
 3. Extraction of unique words while creating the word bank, thus reducing redundancy.<br>
 
-<h2>Referneces:</h2>
+**<h2>Referneces:</h2>**
 * http://nlp.stanford.edu/IR-book/pdf/02voc.pdf<br>
 
 * http://nlp.stanford.edu/IR-book/pdf/06vect.pdf<br>
