@@ -156,7 +156,7 @@ A graph has been plotted between the execution times of calling functions with t
 
 
 **Link for GitHub repository: https://github.com/milindkulgod/PharmEazy**
-**Website link: http://5a1bbb21.ngrok.io**
+**Website link: https://02122cc5.ngrok.io**
 
 **<h2>References:</h2>**
 
