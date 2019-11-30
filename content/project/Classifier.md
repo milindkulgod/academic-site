@@ -1,8 +1,9 @@
 +++
+
 title="Review Classification using Naive Bayes Algorithm"
 
-[[gallery_item]] album = "Screenshots" image = "hp.png"
-+++
+
+[[gallery_item]] album = "Screenshots" image = "hp.png" +++
 <h1>**Classifiers**</h1>
 <body>
 The task of classification is the process of predicting a class when a set of data points have been given. This classifier uses a training data to understand
