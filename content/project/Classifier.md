@@ -76,5 +76,35 @@ Observations show that by decreasing the value of the hyperparameter, the accura
 
 {{< gallery album="Screenshots" >}}
 
+The above graph has been plotted between the testing data in order to get the accuracy, and how the change in the hyperparameter(alpha) affects the accuracy. For the values 0.0000001, 0.00001, 0.0001, 0.1, 1, 2, the accuracies obtained were 59.6, 57.4, 55.3, 56.5, 55.7 and 50.4.
+
+**Challenges Faced:**
+
+* The highest accuracy obtained is 59.6% for an aplha value of 0.0000001. The reason why the accuracy is so low is because of the imperfection in the language that has been used in the dataset, and also, as a wide variety of words have been repeated in several different classses.
+
+This means that the text is not exactly unique, thus bringing about an optimized result was fairly a difficult task.
+
+* The conceptual understanding of machine learning classifiers and their way of functioning was a fairly slow process, increasing the time taken to implement the concept.
+
+* Due to the size of the dataset, the training of the model was time consuming.
+
+**Contributions:**
+
+* None of the predefined libraries were used. The classifier was created with the help of dictionaries and the calculation of probabilities.
+
+* Altering the default value of the Laplace correction, from 1 to various other values, thus making a difference in the accuracy of the classifier model. 
+
+**References:**
+
+* https://towardsdatascience.com/machine-learning-classifiers-a5cc4e1b0623
+
+* https://nlp.stanford.edu/IR-book/html/htmledition/naive-bayes-text-classification-1.html
+
+* https://medium.com/syncedreview/applying-multinomial-naive-bayes-to-nlp-problems-a-practical-explanation-4f5271768ebf
+
+* https://cs.stackexchange.com/questions/3005/smoothing-in-naive-bayes-model
+
+
+
 
 
