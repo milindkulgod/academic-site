@@ -33,6 +33,7 @@ The caption, along with the url of the image were recorded in a .csv file and th
 
 
 **Contributions:**
+
 * Altering of the code that was used to test one image into taking in large number of images and storing the created captions in a .csv file.
 
 * Being a photographer, I used some of my personal images in order to generate captions.
@@ -42,6 +43,7 @@ The caption, along with the url of the image were recorded in a .csv file and th
 
 
 **Difficulties Faced:**
+
 * Usage of a part of the entire dataset did not exactly train the model perfectly, thus generating incomplete or inaccurate captions.
 
 * Even on the Google Colab notebook, training of the model took around 3 hours.
