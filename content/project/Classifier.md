@@ -105,6 +105,6 @@ This means that the text is not exactly unique, thus bringing about an optimized
 * https://cs.stackexchange.com/questions/3005/smoothing-in-naive-bayes-model
 
 
-
+[Part 3](https://milind.netlify.com/project/image/)
 
 
