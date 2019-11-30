@@ -157,8 +157,6 @@ A graph has been plotted between the execution times of calling functions with t
 
 **Link for GitHub repository: https://github.com/milindkulgod/PharmEazy**
 
-**Website link:  https://f9fc79d8.ngrok.io**
-
 **<h2>References:</h2>**
 
 * http://nlp.stanford.edu/IR-book/pdf/02voc.pdf
@@ -168,3 +166,6 @@ A graph has been plotted between the execution times of calling functions with t
 * https://colab.research.google.com/drive/1n1hUx-mO4EqhKyFmN--9pK5MhKR68MpB#scrollTo=8ILVjili5Xmu
 
 * https://www.freecodecamp.org/news/how-to-process-textual-data-using-tf-idf-in-python-cd2bbc0a94a3/
+
+[Phase 2](https://milind.netlify.com/project/classifier/)
+
