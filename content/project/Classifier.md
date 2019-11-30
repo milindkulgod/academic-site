@@ -1,7 +1,7 @@
 +++
 title="Review Classification using Naive Bayes Algorithm"
 
-[[gallery_item]] album = "Screenshots" image = "hp.jpg"
+[[gallery_item]] album = "Screenshots" image = "hp.png"
 +++
 <h1>**Classifiers**</h1>
 <body>
