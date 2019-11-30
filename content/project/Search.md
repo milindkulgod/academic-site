@@ -167,5 +167,5 @@ A graph has been plotted between the execution times of calling functions with t
 
 * https://www.freecodecamp.org/news/how-to-process-textual-data-using-tf-idf-in-python-cd2bbc0a94a3/
 
-[Phase 2](https://milind.netlify.com/project/classifier/)
+[Click for Phase 2](https://milind.netlify.com/project/classifier/)
 
