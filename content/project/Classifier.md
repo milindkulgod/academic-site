@@ -1,5 +1,7 @@
 +++
 title="Review Classification using Naive Bayes Algorithm"
+
+[[gallery_item]] album = "Screenshots" image = "hp.jpg"
 +++
 <h1>**Classifiers**</h1>
 <body>
@@ -67,6 +69,8 @@ P( efficient | Migraine ) = (72 + 1) / (16291 + 21167) =  -5.295782736465865
 
 The Laplace smoothing is the hyperparameter. In case of hyperparameter tuning, the approach around the default was to change the value of the hyperparameter.
 Observations show that by decreasing the value of the hyperparameter, the accuracy increased.
+
+{{< gallery album="Screenshots" >}}
 
 
 
