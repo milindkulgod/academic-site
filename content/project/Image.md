@@ -72,6 +72,7 @@ The caption, along with the url of the image were recorded in a .csv file and th
 * https://www.analyticsvidhya.com/blog/2018/04/solving-an-image-captioning-task-using-deep-learning/
 
 **[Video Link](https://youtu.be/MXC41mWMOWY)**
+
 **[Site Link](http://90fd9c4b.ngrok.io)**
 
 
