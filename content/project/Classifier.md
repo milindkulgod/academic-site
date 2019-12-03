@@ -88,6 +88,8 @@ This means that the text is not exactly unique, thus bringing about an optimized
 
 * Due to the size of the dataset, the training of the model was time consuming.
 
+* The classification results have a lot of common classes, this is because the reviews have all kinds of symptoms mentioned, making it difficult to attain close to perfect results.
+
 **Contributions:**
 
 * None of the predefined libraries were used. The classifier was created with the help of dictionaries and the calculation of probabilities.
