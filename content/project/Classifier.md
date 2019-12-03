@@ -96,6 +96,10 @@ This means that the text is not exactly unique, thus bringing about an optimized
 
 * Altering the default value of the Laplace correction, from 1 to various other values, thus making a difference in the accuracy of the classifier model. 
 
+**Conclusion:**
+PharmEazy can be optimized over the time with the help of advanced Machine Learning techniques and also make the use of Neural Networks as well. The app has been developed to search for reviews and medicines related to the symptoms an individual is undergoing, and also, at the same time give in a review or a symptom and the app will classify it to the according class that it belongs to, making identification of the illness much easier and accurately, resorting to self help in times of extreme emergencies and unavailability of medical consultancy.
+
+
 **References:**
 
 * https://towardsdatascience.com/machine-learning-classifiers-a5cc4e1b0623
