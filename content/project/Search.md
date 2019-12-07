@@ -140,6 +140,8 @@ The sentence will be broken down into a vector form ['suffering','depression']
 
 2. For a big dataset, with more than 100k entries, acquiring the posting lists is a big task.<br>
 
+3. The reviews that were written by the users were not exactly unique, that is, many reviews had repeated symptoms, may it be cure or side effects. This is from the dataset perspective, hence, bringing about accurate results would require more accurate and precise reviews.
+
 **<h2>Improvements:</h2>**
 
 1. Elimination of stop words and lemmatizing existing words.
