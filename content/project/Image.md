@@ -73,7 +73,7 @@ The caption, along with the url of the image were recorded in a .csv file and th
 
 **[Video Link](https://youtu.be/MXC41mWMOWY)**
 
-**[Site Link](https://ad7217ed.ngrok.io)**
+**[Site Link](https://e89d4290.ngrok.io)**
 
 **[GitHub Link](https://github.com/milindkulgod/PharmEazy)**
 
