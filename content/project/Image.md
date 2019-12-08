@@ -75,7 +75,7 @@ The caption, along with the url of the image were recorded in a .csv file and th
 
 **[Site Link](https://82715259.ngrok.io)**
 
-**[GitHub Link](https://github.com/milindkulgod/PharmEazy)**
+**[GitHub Link](https://github.com/milindkulgod/DataMiningFall19)**
 
 
 
