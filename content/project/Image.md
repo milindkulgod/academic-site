@@ -55,6 +55,8 @@ The caption, along with the url of the image were recorded in a .csv file and th
 
 * Understanding the concepts of Neural networks, ANN, CNN and Deep Learning in a very short period of time.
 
+* Usage of limited captions resulted in the inaccurate generation of captions. Usage of more data to train will improve the accuracy of the caption to be generated for a given image.
+
 
 
 **References:**
