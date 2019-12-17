@@ -31,17 +31,17 @@ Here, we will be displaying the accuracy of the classifier.
 
 First, we need to calculate the prior probabilities, and this is done by creating a dictionary which contains the list of all documents,
 unique words and total number of words occuring in each class.
-
+<pre>
 dictionary = { class1 : [[review1, review2,.......,reviewn], 
                               [word1, word2,.......,wordn], 
                               tcount],...}
-
+</pre>
 Next, we create another dictionary within, for every class, in which words are keys, and store the frequency value of the word appearing and the number of reviews the word occured in the entire class.
-
+<pre>
 class = { class : [P(class), tcount, ucount,
                               {word1 : [total_no_of_occurances, total_review_count]...}
                           }
-                          
+</pre>                          
 For the review: "This medicine was good and effective" for the drug Riboflavin for Migraine(class),
 for the word "medicine" in "dictionary" is = [344, 271]. Likewise for "good" it is = [213, 184] and "efficient" is [72,61].
 
