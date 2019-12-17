@@ -27,7 +27,7 @@ After training the images, testing images were given as input in order to genera
 
 Most of the image captioning was done by the captioning model that was available on the tensorflow github repository, the next task was to use the captions generated as input for a search engine and display images containing the keywords in the caption.
 
-After training the model, a csv file was opened, and, with the help of a for loop, the testing part of the model was made to run for the number of iterations that were equal to the number of images that were being tested.
+After training the model, a csv file was opened, and, with the help of a for loop, the testing part of the model was made to run for the number of iterations that were equal to the number of images that were being tested, which was from the flicker8k dataset.
 The caption, along with the url of the image were recorded in a .csv file and the captions were tokenized, bringing it into a suitable format to run it through the search engine, following the same procedure of calculating the TF-IDF scores and displaying the top-k results along with the image.
 
 
@@ -37,6 +37,8 @@ The caption, along with the url of the image were recorded in a .csv file and th
 * Altering of the code that was used to test one image into taking in large number of images and storing the created captions in a .csv file.
 
 * Being a photographer, I used some of my personal images in order to generate captions.
+
+* Had to compress the images as DSLR resolutions were big, thus making the images into an optimum size for the attention network.
 
 * Uploaded images onto a GitHub repository, thus making extraction of the image url easier.
 
