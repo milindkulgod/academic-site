@@ -41,7 +41,16 @@ The caption, along with the url of the image were recorded in a .csv file and th
 * Had to compress the images as DSLR resolutions were big, thus making the images into an optimum size for the attention network.
 
 * Uploaded images onto a GitHub repository, thus making extraction of the image url easier.
-
+<pre>
+ for i in range(1000):
+  image_url = 'https://raw.githubusercontent.com/milindkulgod/image/master/'+str[i]+'.jpg'
+  print(image_url)
+  image_extension = image_url[-4:]
+  image_path = tf.keras.utils.get_file('newbie'+image_extension,origin=image_url)
+  print (image_path)
+  reuslt, attention_plot = evaluate(image_path)
+  writer.writerows([[str(i),image_url,result]])
+</pre>
 
 
 **Difficulties Faced:**
