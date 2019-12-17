@@ -150,6 +150,8 @@ The sentence will be broken down into a vector form ['suffering','depression']
 
 3. Extraction of unique words while creating the word bank, thus reducing redundancy.
 
+4. Code was created from scratch without the help of any packages or libraries that might make the work easier.
+
 **<h2>Graph:</h2>**
 
 {{< gallery album="Screenshots" >}}
