@@ -28,14 +28,14 @@ interests = [
 contact = "+1 (469)-487-3183"
 # List qualifications (such as academic degrees)
 [[education.courses]]
-  course = "Masters of Science in Computer Science and Engineering(Current)"
+  course = "Masters of Science in Computer Science and Engineering"
   institution = "The University of Texas at Arlington"
-  year = 2019
+  year = 2019-2021
 
 [[education.courses]]
   course = "Bachelor of Engineering in Information Science and Engineering"
   institution = "Nitte Meenakshi Institute of Technology"
-  year = 2015
+  year = 2015-2019
 
 # Social/Academic Networking
 #
