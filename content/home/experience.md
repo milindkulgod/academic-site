@@ -17,6 +17,23 @@ date_format = "Jan 2006"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
+
+[[experience]]
+  title = "Software Engineer"
+  company = "Tata Consultancy Services Limited"
+  company_url = ""
+  location = "United States of America"
+  date_start = "2021-08-09"
+  date_end = "Present"
+  description = """
+  *	Worked on internal projects with a Core Java, Oracle SQL, Angular and Node during the training period.
+  *	Developed a mock e-commerce application using Angular.
+  *	Started working with Verizon as a full stack developer (MERN Stack) on a product that automates cell tower configurations to handle network fluctuations.
+  *	Contributed to the application by taking charge of features which enhanced the application's productivity and efficiency.
+  *	Was actively involved in the application refactoring to improve performance by 40% after change of database requirement.
+  *	Worked as a full stack developer on other applications within Verizon that did analysis on information retrieved by user calls for performance enhancement.
+  """
+
 [[experience]]
   title = "Intern"
   company = "Quess Corp Limited"
